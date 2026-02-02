@@ -1,5 +1,5 @@
 
-```markdown
+
 # Django Login System
 
 A simple user authentication system built using **Django’s built-in authentication framework**.  
@@ -26,7 +26,7 @@ This project demonstrates login, logout, protected routes, and session-based aut
 
 ## Project Structure
 
-```
+
 ```
 simple-login-django/
 ├── manage.py
