@@ -1,0 +1,12 @@
+*.pyc
+__pycache__/
+db.sqlite3
+/media
+/static
+*.log
+*.pot
+*.pyc
+.env
+*.sqlite3
+*.egg-info/
+venv/

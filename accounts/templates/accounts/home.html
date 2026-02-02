@@ -1,0 +1,17 @@
+<div style="max-width: 800px; margin: 50px auto; padding: 20px;">
+  
+  <h1>
+    Welcome{% if user.first_name %}
+    {{ user.first_name }} {{ user.last_name }}
+    {% else %}
+    {{ user.username }}
+    {% endif %}
+  </h1>
+  
+  <p>
+    This is your dashboard.
+  </p>
+  <a href="{% url 'logout' %}" style="color: #000; font-weight: bold;">
+    Logout
+  </a>
+</div>
